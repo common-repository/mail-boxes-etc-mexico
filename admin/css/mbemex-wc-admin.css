@@ -1,0 +1,52 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.mbemex-btn-danger {
+    background: #dc3232 !important;
+    border-color: #dc3232 !important;
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.mbemex-btn-danger:hover{
+	background: #d03131 !important;
+    border-color: #d03131 !important;
+}
+
+.mbemex-color-danger{
+	color: #dc3232 !important;
+}
+
+.mbemex-color-info{
+	color: #00a0d2 !important;
+}
+
+.mbemex-p-title{
+	font-size: 16px !important;
+	margin-bottom: 5px !important;
+}
+
+.mbemex-ul{
+	margin-top: 0 !important;
+}
+
+.mbemex-edit {
+    width: 16px;
+    height: 0;
+    padding: 14px 0 0;
+    margin: 0 0 0 6px;
+    overflow: hidden;
+    position: relative;
+    color: #999;
+    border: 0;
+    text-decoration: none;
+}
+.mbemex-edit:hover {
+    color: #000;
+}
+.mbemex-edit::after {
+    font-family: Dashicons;
+    content: "\f464";
+}
